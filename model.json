@@ -5,7 +5,7 @@
   "component_sets": [
     {
       "name": "WRIST-Test/WRIST-core-information-standard",
-      "id": "3e9a14427be4d5790f65fe2783af4c7bda387cc2"
+      "id": "2.0.0"
     }
   ],
   "concept": [
@@ -202,7 +202,7 @@
           "valueSets": "\n                     <div>SNOMED_CT:- <a class=\"\" href=\"https://termbrowser.nhs.uk/?perspective=full&conceptId1=999000531000000100&edition=uk-edition&server=https://termbrowser.nhs.uk/sct-browser-api/snomed&langRefset=999001261000000100,999000691000001104\" target=\"\" title=\"\">Religion</a>\n                        <br clear=\"none\"/>\n                    </div> \n                "
         },
         {
-          "description": "The person\u2019s phenotypic sex. Determines how the person will be treated clinically.",
+          "description": "The person’s phenotypic sex. Determines how the person will be treated clinically.",
           "maximumMultiplicity": "1",
           "minimumMultiplicity": "0",
           "name": "Sex",
@@ -274,7 +274,7 @@
               "type": "string"
             }
           ],
-          "valueSets": "\n                     <div>NHS data dictionary: -\u00a0<a class=\"\" href=\"https://datadictionary.nhs.uk/data_elements/local_patient_identifier__extended_.html?hl=local%2Cpatient%2Cidentifier%2Cextended\" target=\"\" title=\"\">Local patient identifier(extended)</a>, <a class=\"\" href=\"https://datadictionary.nhs.uk/data_elements/health_and_care_number.html\" target=\"\" title=\"\">Health and care number (NI only)</a>,\u00a0<a class=\"\" href=\"https://datadictionary.nhs.uk/data_elements/community_health_index_number.html\" target=\"\" title=\"\">Community health index number</a>\u00a0(Scotland only)</div> \n                "
+          "valueSets": "\n                     <div>NHS data dictionary: - <a class=\"\" href=\"https://datadictionary.nhs.uk/data_elements/local_patient_identifier__extended_.html?hl=local%2Cpatient%2Cidentifier%2Cextended\" target=\"\" title=\"\">Local patient identifier(extended)</a>, <a class=\"\" href=\"https://datadictionary.nhs.uk/data_elements/health_and_care_number.html\" target=\"\" title=\"\">Health and care number (NI only)</a>, <a class=\"\" href=\"https://datadictionary.nhs.uk/data_elements/community_health_index_number.html\" target=\"\" title=\"\">Community health index number</a> (Scotland only)</div> \n                "
         },
         {
           "concept": [
@@ -295,7 +295,7 @@
                   "type": "string"
                 }
               ],
-              "valueSets": "\n                         <div>NHS data dictionary :-\u00a0 <a href=\"https://datadictionary.nhs.uk/data_elements/patient_usual_address.html\" target=\"\" title=\"\">Address line 1</a>\n                            <br clear=\"none\"/>\n                        </div> \n                    "
+              "valueSets": "\n                         <div>NHS data dictionary :-  <a href=\"https://datadictionary.nhs.uk/data_elements/patient_usual_address.html\" target=\"\" title=\"\">Address line 1</a>\n                            <br clear=\"none\"/>\n                        </div> \n                    "
             },
             {
               "description": "Person's second line of address.",
@@ -412,7 +412,7 @@
               "valueSets": "NHS data dictionary : -  <a class=\"\" href=\"https://www.datadictionary.nhs.uk/data_dictionary/attributes/a/add/address_association_type_de.asp?shownav=1\" target=\"\" title=\"\">Address association type</a> \n                    "
             }
           ],
-          "description": "Person\u2019s usual place of residence, and where relevant temporary and correspondence addresses.",
+          "description": "Person’s usual place of residence, and where relevant temporary and correspondence addresses.",
           "maximumMultiplicity": "*",
           "minimumMultiplicity": "1",
           "mro": "M",
@@ -778,7 +778,7 @@
         }
       ],
       "description": "The person's details and contact information.",
-      "implementationGuidance": "The mandatory information in this section is person\u2019s name, date of birth and address. There can be multiple addresses associated with a person including temporary and correspondence addresses. These are stored on the PDS.  <br clear=\"none\"/> \n                 <br clear=\"none\"/> Note that the Individual requirements section includes specific elements for accessible information requirements to support communication. It is recognised that some of the elements in this section are currently shared in a more granular way than currently defined in this information model. PRSB intends to address this in a later release of the information model.",
+      "implementationGuidance": "The mandatory information in this section is person’s name, date of birth and address. There can be multiple addresses associated with a person including temporary and correspondence addresses. These are stored on the PDS.  <br clear=\"none\"/> \n                 <br clear=\"none\"/> Note that the Individual requirements section includes specific elements for accessible information requirements to support communication. It is recognised that some of the elements in this section are currently shared in a more granular way than currently defined in this information model. PRSB intends to address this in a later release of the information model.",
       "maximumMultiplicity": "1",
       "minimumMultiplicity": "1",
       "mro": "M",
